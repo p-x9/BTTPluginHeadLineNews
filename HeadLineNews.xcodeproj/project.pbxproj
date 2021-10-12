@@ -3,12 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		42F47F662715CE1A004F1132 /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F652715CE1A004F1132 /* RSSParser.swift */; };
+		42F47F682715CE42004F1132 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F672715CE42004F1132 /* Item.swift */; };
+		42F47F6E2715D7F2004F1132 /* BTTPluginFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F6D2715D7F2004F1132 /* BTTPluginFormItem.m */; };
+		42F47F732715DADB004F1132 /* HeadLineNewsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F722715DADA004F1132 /* HeadLineNewsPlugin.swift */; };
+		42F47F752715DF46004F1132 /* HeadLineNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F742715DF46004F1132 /* HeadLineNewsView.swift */; };
+		42F47F782715DF68004F1132 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42F47F772715DF68004F1132 /* SnapKit */; };
+		42F47F792715E121004F1132 /* BTTFormConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F702715D848004F1132 /* BTTFormConstants.m */; };
+		42F47F7E2715E188004F1132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F7C2715E188004F1132 /* ViewController.swift */; };
+		42F47F812715EC61004F1132 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F802715EC61004F1132 /* Preferences.swift */; };
+		42F47F842715ED11004F1132 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 42F47F832715ED11004F1132 /* Defaults */; };
+		42F47F872715EF73004F1132 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F47F862715EF73004F1132 /* NSColor.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42F47F5B2715CD69004F1132 /* HeadLineNews.btttouchbarplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadLineNews.btttouchbarplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F47F5E2715CD69004F1132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F47F642715CE1A004F1132 /* HeadLineNews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeadLineNews-Bridging-Header.h"; sourceTree = "<group>"; };
+		42F47F652715CE1A004F1132 /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
+		42F47F672715CE42004F1132 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		42F47F6B2715D783004F1132 /* BTTPluginInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTPluginInterface.h; sourceTree = "<group>"; };
+		42F47F6C2715D7BB004F1132 /* BTTPluginSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTPluginSupport.h; sourceTree = "<group>"; };
+		42F47F6D2715D7F2004F1132 /* BTTPluginFormItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTPluginFormItem.m; sourceTree = "<group>"; };
+		42F47F6F2715D815004F1132 /* BTTPluginFormItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTPluginFormItem.h; sourceTree = "<group>"; };
+		42F47F702715D848004F1132 /* BTTFormConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTFormConstants.m; sourceTree = "<group>"; };
+		42F47F712715D86E004F1132 /* BTTFormConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTFormConstants.h; sourceTree = "<group>"; };
+		42F47F722715DADA004F1132 /* HeadLineNewsPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineNewsPlugin.swift; sourceTree = "<group>"; };
+		42F47F742715DF46004F1132 /* HeadLineNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineNewsView.swift; sourceTree = "<group>"; };
+		42F47F7C2715E188004F1132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42F47F802715EC61004F1132 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		42F47F862715EF73004F1132 /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -16,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F47F842715ED11004F1132 /* Defaults in Frameworks */,
+				42F47F782715DF68004F1132 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +72,54 @@
 			isa = PBXGroup;
 			children = (
 				42F47F5E2715CD69004F1132 /* Info.plist */,
+				42F47F722715DADA004F1132 /* HeadLineNewsPlugin.swift */,
+				42F47F7C2715E188004F1132 /* ViewController.swift */,
+				42F47F652715CE1A004F1132 /* RSSParser.swift */,
+				42F47F882715F63D004F1132 /* VIew */,
+				42F47F852715EF66004F1132 /* Extensions */,
+				42F47F692715D6C2004F1132 /* Model */,
+				42F47F6A2715D765004F1132 /* BTTSupport */,
+				42F47F642715CE1A004F1132 /* HeadLineNews-Bridging-Header.h */,
 			);
 			path = HeadLineNews;
+			sourceTree = "<group>";
+		};
+		42F47F692715D6C2004F1132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42F47F672715CE42004F1132 /* Item.swift */,
+				42F47F802715EC61004F1132 /* Preferences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42F47F6A2715D765004F1132 /* BTTSupport */ = {
+			isa = PBXGroup;
+			children = (
+				42F47F6B2715D783004F1132 /* BTTPluginInterface.h */,
+				42F47F6C2715D7BB004F1132 /* BTTPluginSupport.h */,
+				42F47F6F2715D815004F1132 /* BTTPluginFormItem.h */,
+				42F47F6D2715D7F2004F1132 /* BTTPluginFormItem.m */,
+				42F47F712715D86E004F1132 /* BTTFormConstants.h */,
+				42F47F702715D848004F1132 /* BTTFormConstants.m */,
+			);
+			path = BTTSupport;
+			sourceTree = "<group>";
+		};
+		42F47F852715EF66004F1132 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42F47F862715EF73004F1132 /* NSColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42F47F882715F63D004F1132 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				42F47F742715DF46004F1132 /* HeadLineNewsView.swift */,
+			);
+			path = VIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -56,12 +132,17 @@
 				42F47F572715CD68004F1132 /* Sources */,
 				42F47F582715CD68004F1132 /* Frameworks */,
 				42F47F592715CD68004F1132 /* Resources */,
+				42C7D31727161CA000AF4710 /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = HeadLineNews;
+			packageProductDependencies = (
+				42F47F772715DF68004F1132 /* SnapKit */,
+				42F47F832715ED11004F1132 /* Defaults */,
+			);
 			productName = HeadLineNews;
 			productReference = 42F47F5B2715CD69004F1132 /* HeadLineNews.btttouchbarplugin */;
 			productType = "com.apple.product-type.bundle";
@@ -76,6 +157,7 @@
 				TargetAttributes = {
 					42F47F5A2715CD68004F1132 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -88,6 +170,10 @@
 				Base,
 			);
 			mainGroup = 42F47F522715CD68004F1132;
+			packageReferences = (
+				42F47F762715DF68004F1132 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				42F47F822715ED11004F1132 /* XCRemoteSwiftPackageReference "Defaults" */,
+			);
 			productRefGroup = 42F47F5C2715CD69004F1132 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -107,11 +193,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42C7D31727161CA000AF4710 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint --fix\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42F47F572715CD68004F1132 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F47F682715CE42004F1132 /* Item.swift in Sources */,
+				42F47F732715DADB004F1132 /* HeadLineNewsPlugin.swift in Sources */,
+				42F47F6E2715D7F2004F1132 /* BTTPluginFormItem.m in Sources */,
+				42F47F662715CE1A004F1132 /* RSSParser.swift in Sources */,
+				42F47F872715EF73004F1132 /* NSColor.swift in Sources */,
+				42F47F7E2715E188004F1132 /* ViewController.swift in Sources */,
+				42F47F792715E121004F1132 /* BTTFormConstants.m in Sources */,
+				42F47F812715EC61004F1132 /* Preferences.swift in Sources */,
+				42F47F752715DF46004F1132 /* HeadLineNewsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,14 +348,23 @@
 		42F47F622715CD69004F1132 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WLCQDVKTS9;
 				INFOPLIST_FILE = HeadLineNews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.HeadLineNews";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HeadLineNews/HeadLineNews-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = btttouchbarplugin;
 			};
 			name = Debug;
@@ -247,14 +372,22 @@
 		42F47F632715CD69004F1132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WLCQDVKTS9;
 				INFOPLIST_FILE = HeadLineNews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.HeadLineNews";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HeadLineNews/HeadLineNews-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = btttouchbarplugin;
 			};
 			name = Release;
@@ -281,6 +414,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42F47F762715DF68004F1132 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		42F47F822715ED11004F1132 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42F47F772715DF68004F1132 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42F47F762715DF68004F1132 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		42F47F832715ED11004F1132 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42F47F822715ED11004F1132 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42F47F532715CD68004F1132 /* Project object */;
 }

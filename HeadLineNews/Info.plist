@@ -19,6 +19,12 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSPrincipalClass</key>
+	<string>HeadLineNews.HeadLineNewsPlugin</string>
+	<key>BTTPluginName</key>
+	<string>HeadLineNews</string>
+	<key>BTTPluginIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>BTTPluginIcon</key>
 	<string></string>
 </dict>
 </plist>
