@@ -24,6 +24,6 @@ You can customize following properties
 - text font color
 - background color
 
-##NOTE
-Currently, settings related to color are not reflected correctly.
+## NOTE
+<b>Currently, settings related to color are not reflected correctly.
 I'm trying to discover the cause.
